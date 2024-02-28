@@ -35,8 +35,8 @@
     </header>
     <main class="mt-[50px]">
       <div class="container mx-auto px-[20px]">
-        <div id="tools-content" class="grid grid-cols-1 lg:grid-cols-3">
-          <div class="card border border-gray-400 p-[25px]">
+        <div id="tools-content" class="grid grid-cols-1 lg:grid-cols-3 gap-[20px]">
+          <!-- <div class="card border border-gray-400 p-[25px]">
             <div class="image">
               <img src="./image/Rectangle 23.png" alt="" />
             </div>
@@ -71,90 +71,32 @@
                 </button>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <!-- Modal trust and do-->
         <!-- You can open the modal using ID.showModal() method -->
         <dialog id="details_modal_finds" class="modal ">
           <div class="modal-box w-12/12 max-w-6xl">
-            <form method="dialog relative">
+            <form method="dialog">
               <button
                 class="btn bg-[#EB5757] btn-sm btn-circle btn-ghost absolute right-0 top-0 z-50"
               >
                 ✕
               </button>
             </form>
-            <div class="flex gap-[20px]">
-              <div
-                class="card flex-1 border border-[#EB57570D] p-[30px] bg-[#EB57570D]"
-              >
-                <h4 class="text-[25px] font-[600] text-[#111111]">
-                  ChatGPT is an AI-powered chatbot platform that uses OpenAI's
-                  GPT technology to simulate human conversation.
-                </h4>
-                <div
-                  class="flex gap-[16px] justify-between items-center mt-[25px]"
-                >
-                  <div
-                    class="text-[16px] font-[800] p-[25px] rounded-lg bg-white text-[#03A30A]"
-                  >
-                    $10/month Basic
-                  </div>
-                  <div
-                    class="text-[16px] font-[800] p-[25px] rounded-lg bg-white text-[#F28927]"
-                  >
-                    $50/month Pro
-                  </div>
-                  <div
-                    class="text-[16px] font-[800] p-[25px] rounded-lg bg-white text-[#EB5757]"
-                  >
-                    Contact us Enterprise
-                  </div>
-                </div>
-                <div class="flex justify-between items-center mt-[25px]">
-                  <div class="part">
-                    <h4 class="text-[25px] font-[600] text-[#111111]">
-                      Features
-                    </h4>
-                    <ul class="list-disc ml-[18px] text-[#585858]">
-                      <li>Customizable responses</li>
-                      <li>Multilingual support</li>
-                      <li>Seamless integration</li>
-                    </ul>
-                  </div>
-                  <div class="part">
-                    <h4 class="text-[25px] font-[600] text-[#111111]">
-                      Integrations
-                    </h4>
-                    <ul class="list-disc ml-[18px] text-[#585858]">
-                      <li>FB Messenger</li>
-                      <li>Slack</li>
-                      <li>Telegram</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="card flex-1 border border-[#E7E7E7] p-[30px]">
-                <div class="relative">
-                  <img class="w-full" src="./image/Rectangle 15.png" alt="" />
-                  <span class="bg-[#EB5757] text-white py-[5px] px-[15px] rounded-lg absolute top-4 right-4">94% accuracy</span>
-                </div>
-                <div class="contetn">
-                  <h4
-                    class="text-[25px] font-[600] text-center mb-[16px] mt-[25px]"
-                  >
-                    Hi, how are you doing today?
-                  </h4>
-                  <p class="text-[16px] text-[#585858] text-center">
-                    I'm doing well, thank you for asking. How can I assist you
-                    today?
-                  </p>
-                </div>
-              </div>
+            <div id="modalDatas">
+
             </div>
           </div>
         </dialog>
+      </div>
+      <div class="flex justify-center my-[50px] ">
+        <button
+            class="py-[20px] px-[40px] bg-[#EB5757] text-white rounded-lg"
+          >
+            See More
+          </button>
       </div>
     </main>
     <footer></footer>
